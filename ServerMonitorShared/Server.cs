@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace ServerMonitorShared
 {
+    [DataContract]
     public class Server
     {
         public String IP { get; set; }
